@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-15 22:35+0330\n"
+"PO-Revision-Date: 2026-08-15 22:43+0330\n"
+"Last-Translator: Anonymous User <anonymous@user.tld>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.10.3\n"
+
+#: .\admin.py:19
+msgid "Permissions"
+msgstr "مجوزها"
+
+#: .\admin.py:25
+msgid "Important dates"
+msgstr "تاریخ‌های مهم"
+
+#: .\admin.py:67
+msgid "Date/Time (Persian)"
+msgstr "تاریخ/زمان (فارسی)"
+
+#: .\forms.py:29 .\forms.py:103
+msgid "Passwords do not match."
+msgstr "رمزهای عبور مطابقت ندارند."
+
+#: .\forms.py:39
+msgid ""
+"You can change the password using this <a href='../password/'>form</a>."
+msgstr ""
+"شما می‌توانید رمز عبور را با استفاده از این فرم <a href='../password/'>تغییر"
+" دهید."
+
+#: .\forms.py:63 .\forms.py:94
+msgid "This phone number already exists."
+msgstr "این شماره تلفن از قبل وجود دارد."
+
+#: .\forms.py:70
+msgid "Full name"
+msgstr "نام کامل"
+
+#: .\forms.py:75 .\forms.py:122 .\forms.py:164
+msgid "Phone number"
+msgstr "شماره تلفن"
+
+#: .\forms.py:81 .\forms.py:170
+msgid "Password"
+msgstr "رمز عبور"
+
+#: .\forms.py:86
+msgid "Confirm password"
+msgstr "تأیید رمز عبور"
+
+#: .\forms.py:112
+msgid "Verification code"
+msgstr "کد تأیید"
+
+#: .\forms.py:131
+msgid "This phone number does not exist."
+msgstr "این شماره تلفن وجود ندارد."
+
+#: .\forms.py:138
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+#: .\forms.py:143
+msgid "Confirm new password"
+msgstr "رمز عبور جدید را تأیید کنید"
+
+#: .\forms.py:155
+msgid "The passwords must match."
+msgstr "رمزهای عبور باید مطابقت داشته باشند"
+
+#: .\forms.py:188
+msgid "Invalid phone number or password."
+msgstr "شماره تلفن یا رمز عبور نامعتبر است."
+
+#: .\managers.py:7
+msgid "The phone number field is required."
+msgstr "فیلد شماره تلفن الزامی است."
+
+#: .\managers.py:9
+msgid "The full name field is required."
+msgstr "فیلد نام کامل الزامی است."
+
+#: .\managers.py:11
+msgid "Users must have a password."
+msgstr "کاربران باید رمز عبور داشته باشند."
+
+#: .\managers.py:28
+msgid "Superuser must have is_staff=True."
+msgstr "کاربر ارشد باید دارای مقدار is_staff=True باشد."
+
+#: .\managers.py:31
+msgid "Superuser must have is_superuser=True."
+msgstr "کاربر ارشد باید دارای مقدار is_superuser=True باشد."
+
+#: .\models.py:17
+msgid "phone number"
+msgstr "شماره تلفن"
+
+#: .\models.py:24
+msgid "full name"
+msgstr "نام کامل"
+
+#: .\models.py:36
+msgid "user"
+msgstr "کاربر"
+
+#: .\models.py:37
+msgid "users"
+msgstr "کاربران"
+
+#: .\models.py:73
+msgid "otp code"
+msgstr "کد OTP"
+
+#: .\models.py:74
+msgid "otp codes"
+msgstr "کدهای OTP"
+
+#: .\validator.py:13
+msgid "Enter a valid Iranian mobile phone number."
+msgstr "یک شماره تلفن همراه معتبر ایرانی وارد کنید."
+
+#: .\views.py:90
+msgid "We already sent you a code. Please wait."
+msgstr "ما قبلاً یک کد برای شما ارسال کرده‌ایم. لطفاً صبر کنید."
+
+#: .\views.py:104
+msgid "Verification code sent successfully."
+msgstr "کد تایید با موفقیت ارسال شد."
+
+#: .\views.py:118 .\views.py:134
+msgid "Registration information not found."
+msgstr "اطلاعات ثبت نام یافت نشد."
+
+#: .\views.py:152
+msgid "The OTP code has expired."
+msgstr "کد OTP منقضی شده است."
+
+#: .\views.py:159 .\views.py:327
+msgid "The entered code is incorrect."
+msgstr "کد وارد شده اشتباه است."
+
+#: .\views.py:177
+msgid "You have successfully registered."
+msgstr "شما با موفقیت ثبت نام کردید."
+
+#: .\views.py:193
+msgid "You have successfully logged in."
+msgstr "شما با موفقیت وارد سیستم شدید."
+
+#: .\views.py:212
+msgid "You have successfully logged out."
+msgstr "شما با موفقیت از سیستم خارج شدید"
+
+#: .\views.py:233
+msgid "Your password was changed successfully."
+msgstr "رمز عبور شما با موفقیت تغییر یافت."
+
+#: .\views.py:240
+msgid "Please correct the errors below."
+msgstr "لطفا خطاهای زیر را اصلاح کنید."
+
+#: .\views.py:270
+msgid "Please wait a moment before requesting a new OTP."
+msgstr "لطفا قبل از درخواست رمز یکبار مصرف جدید، لحظه‌ای صبر کنید."
+
+#: .\views.py:285
+msgid "A verification code has been sent to your phone number."
+msgstr "کد تایید به شماره تلفن شما ارسال شد."
+
+#: .\views.py:307
+msgid "Session expired. Please start over."
+msgstr "زمان تمام شد. لطفاً دوباره شروع کنید."
+
+#: .\views.py:320
+msgid "The OTP code has expired. Please request a new one."
+msgstr "کد OTP منقضی شده است. لطفا کد جدیدی درخواست کنید."
+
+#: .\views.py:337
+msgid "Code verified successfully."
+msgstr "کد با موفقیت تأیید شد."
+
+#: .\views.py:356
+msgid "Please start from the password recovery step."
+msgstr "لطفا از مرحله بازیابی رمز عبور شروع کنید."
+
+#: .\views.py:369
+msgid "User not found."
+msgstr "کاربر یافت نشد."
+
+#: .\views.py:383
+msgid "Your password has been successfully changed."
+msgstr "رمز عبور شما با موفقیت تغییر یافت."
